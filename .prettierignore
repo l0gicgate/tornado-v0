@@ -1,0 +1,20 @@
+# Node
+node_modules
+yarn.lock
+.yarn
+
+# Artifacts
+bin
+.next
+coverage
+dist
+migrations
+.swm
+apps/server/typings/nexus-typegen.d.ts
+*.graphql
+apps/server/src/api/graphql/index.ts
+apps/server/src/types/statuspage/schemas
+
+# App dirs
+apps/server/public
+apps/server/deps
